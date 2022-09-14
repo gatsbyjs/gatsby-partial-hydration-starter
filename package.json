@@ -12,8 +12,8 @@
     "gatsby-source-filesystem": "alpha-v5",
     "gatsby-transformer-sharp": "alpha-v5",
     "prop-types": "^15.8.1",
-    "react": "^0.0.0-experimental-e6a062bd2-20220913",
-    "react-dom": "^0.0.0-experimental-e6a062bd2-20220913"
+    "react": "experimental",
+    "react-dom": "experimental"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
