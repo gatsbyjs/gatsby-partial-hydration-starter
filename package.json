@@ -1,16 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "gatsby-partial-hydration-starter",
+  "version": "1.0.0",
   "dependencies": {
-    "gatsby": "alpha-v5",
-    "gatsby-plugin-image": "alpha-v5",
-    "gatsby-plugin-manifest": "alpha-v5",
-    "gatsby-plugin-sharp": "alpha-v5",
-    "gatsby-source-filesystem": "alpha-v5",
-    "gatsby-transformer-sharp": "alpha-v5",
+    "gatsby": "next",
+    "gatsby-plugin-image": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-sharp": "next",
     "prop-types": "^15.8.1",
     "react": "experimental",
     "react-dom": "experimental"
@@ -28,15 +25,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "clean": "gatsby clean"
   },
   "engines": {
     "node": ">=18.0.0"

@@ -1,4 +1,4 @@
-# Gatsby's Partial Hydration starter (V5 Alpha)
+# Gatsby's Partial Hydration starter (V5 Beta)
 
 Example project for the ongoing [RFC: Partial Hydration](https://github.com/gatsbyjs/gatsby/discussions/36608).
 
@@ -9,8 +9,7 @@ Example project for the ongoing [RFC: Partial Hydration](https://github.com/gats
     Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the default starter.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-partial-hydration-starter
+    gatsby new partial-hydration-starter https://github.com/gatsbyjs/gatsby-partial-hydration-starter
     ```
 
 1.  **Start developing.**
