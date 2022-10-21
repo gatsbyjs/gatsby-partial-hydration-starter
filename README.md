@@ -6,20 +6,28 @@ It's part of Gatsby 5, visit the [Gatsby 5 Umbrella Discussion](https://github.c
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone this Gatsby site.**
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the default starter.
+    Clone this repository directly (Note: If you use the gatsby-cli new command, it will fail on npm install. This can be remedied-- skip to Install Dependencies step.)
 
     ```shell
-    gatsby new partial-hydration-starter https://github.com/gatsbyjs/gatsby-partial-hydration-starter
+    git clone https://github.com/gatsbyjs/gatsby-partial-hydration-starter
+    ```
+
+1. **Install Dependencies**
+
+    We need to cd into the project directory and run `npm install` with an option:
+
+    ```shell
+    cd gatsby-partial-hydration-starter
+    npm install --legacy-peer-deps
     ```
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Start up the development server.
 
     ```shell
-    cd partial-hydration-starter
     gatsby develop
     ```
 
