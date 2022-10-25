@@ -1,6 +1,8 @@
-// To mark a component as client side, you add the "client export" directive.
-// @see https://github.com/reactjs/rfcs/pull/189#issuecomment-1116482278
-"client export"
+/**
+ * To mark a component as client side, you add the "use client" directive.
+ * @see {@link https://github.com/reactjs/rfcs/blob/serverconventions-rfc2/text/0000-server-module-conventions.md}
+ */
+"use client"
 
 import React, { useCallback, useState } from "react"
 
