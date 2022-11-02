@@ -8,7 +8,7 @@ It's part of Gatsby 5, visit the [Gatsby 5 Umbrella Discussion](https://github.c
 
 1.  **Clone this Gatsby site.**
 
-    Clone this repository directly (Note: If you use the gatsby-cli new command, it will fail on npm install. This can be remedied-- skip to Install Dependencies step.)
+    Clone this repository directly.
 
     ```shell
     git clone https://github.com/gatsbyjs/gatsby-partial-hydration-starter
@@ -16,7 +16,7 @@ It's part of Gatsby 5, visit the [Gatsby 5 Umbrella Discussion](https://github.c
 
 1. **Install Dependencies**
 
-    We need to cd into the project directory and run `npm install` with an option:
+    cd into the project directory and run `npm install`:
 
     ```shell
     cd gatsby-partial-hydration-starter
