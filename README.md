@@ -1,4 +1,4 @@
-# Gatsby's Partial Hydration starter (V5 Beta)
+# Gatsby's Partial Hydration Starter (Beta)
 
 Example project for the ongoing [RFC: Partial Hydration](https://github.com/gatsbyjs/gatsby/discussions/36608).
 
