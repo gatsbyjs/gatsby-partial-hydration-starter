@@ -14,30 +14,27 @@ It's part of Gatsby 5, visit the [Gatsby 5 Umbrella Discussion](https://github.c
     git clone https://github.com/gatsbyjs/gatsby-partial-hydration-starter
     ```
 
-1. **Install Dependencies**
+1.  **Install Dependencies**
 
-    cd into the project directory and run `npm install`:
+    `cd` into the project directory and run `npm install`:
 
     ```shell
     cd gatsby-partial-hydration-starter
     npm install --legacy-peer-deps
     ```
 
-1.  **Start developing.**
+1.  **Build and serve the site.**
 
-    Start up the development server.
+    For the time being the `develop` command is not available with partial hydration. Use the `build` + `serve` commands instead:
 
     ```shell
-    gatsby develop
+    npm run build
+    npm run serve
     ```
 
 1.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries)._
-
-    Open the `partial-hydration-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Your site is now running at `http://localhost:9000`!
 
 ## 🚀 Quick start (Gatsby Cloud)
 
