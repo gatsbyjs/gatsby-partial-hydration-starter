@@ -1,6 +1,6 @@
 /**
  * To mark a component as client side, you add the "use client" directive.
- * @see {@link https://github.com/reactjs/rfcs/blob/serverconventions-rfc2/text/0000-server-module-conventions.md}
+ * @see {@link https://github.com/reactjs/rfcs/blob/2348bd8ed7fb66fedf04726eb046065be7f4e23f/text/0227-server-module-conventions.md}
  */
 "use client"
 
